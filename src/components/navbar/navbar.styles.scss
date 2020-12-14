@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rebeccapurple;
+  padding: 20px;
+  color: white;
+
+  .app-name {
+    width: 30%;
+  }
+
+  .navbar-links {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    a {
+      text-decoration: none;
+      margin: 0 30px;
+      color: white;
+    }
+  }
+}
