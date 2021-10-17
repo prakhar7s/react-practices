@@ -6,7 +6,9 @@ import "./navbar.styles.scss";
 
 const Navbar = () => (
   <div className="navbar">
-    <span className="app-name">App Name</span>
+    <Link to="/" className="app-name">
+      App Name
+    </Link>
 
     <div className="navbar-links">
       <Link to="projects">Projects</Link>
