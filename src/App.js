@@ -1,9 +1,11 @@
 import "./App.css";
-import ReactRouterExample from "./components/react-router-example/ReactRouterExample";
+import Keys from "./components/react-good-practices/keys";
+// import ReactRouterExample from "./components/react-router-example/ReactRouterExample";
 
 const App = () => (
   <div className="app">
-    <ReactRouterExample />
+    {/* <ReactRouterExample /> */}
+    <Keys />
   </div>
 );
 
